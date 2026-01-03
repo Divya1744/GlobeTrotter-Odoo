@@ -86,6 +86,8 @@ public class AuthService {
                 .role(Role.USER)
                 // ADDED: Map phone number to entity
                 .phoneNumber(request.getPhoneNumber())
+                .city(request.getCity())
+                .country(request.getCountry())
                 .build();
     }
 
